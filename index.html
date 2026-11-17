@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en" data-palette="a">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Eren Düz — Roblox systems developer</title>
+<meta name="description" content="Roblox systems built from scratch, on top of your game, or rebuilt from a reference: combat, weapons, vehicles, UI. Plus AI-assisted game-dev training.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Eren Düz">
+<meta property="og:title" content="Eren Düz — Roblox systems developer">
+<meta property="og:description" content="Combat, weapons, vehicles and UI for Roblox — built new, taken over, or rebuilt from a reference. Message me on Discord for a plan and a quote.">
+<meta property="og:image" content="assets/og-card.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="assets/og-card.jpg">
+<meta property="og:image:alt" content="Eren Düz over a dark grey A-10 on a dark studio stage.">
+<meta name="theme-color" content="#09090B">
+<meta name="color-scheme" content="dark">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/jost-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/afacad-flux-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="fonts.css">
+<link rel="stylesheet" href="tokens.css">
+<link rel="stylesheet" href="style.css">
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+<a class="skip" href="#main" data-c="nav.skipLink"></a>
+
+<header class="nav" id="top">
+  <div class="nav__pill">
+    <a class="nav__brand" href="#top" data-cursor-hover>
+      <span class="nav__mark" aria-hidden="true" data-c-initials="meta.siteName"></span>
+      <span class="nav__name" data-c="meta.siteName" translate="no"></span>
+    </a>
+    <nav class="nav__links" id="nav-links" data-c-aria="nav.ariaLabel"></nav>
+    <span class="nav__sep" aria-hidden="true"></span>
+    <a class="nav__cta" data-c-link="nav.cta" data-preset="commission" data-cursor-hover data-cursor-on="accent"></a>
+    <button class="nav__menu" type="button" aria-expanded="false" aria-controls="nav-links" data-cursor-hover><span class="nav__menu-bars" aria-hidden="true"></span><span class="sr" data-c="nav.menuOpen"></span></button>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero" aria-labelledby="hero-name">
+    <div class="hero__glow" aria-hidden="true"><div class="hero__glow-dot"></div></div>
+    <div class="hero__inner">
+      <h1 class="hero__name" id="hero-name" translate="no"><span class="hero__word" aria-hidden="true"></span><span class="hero__caret" aria-hidden="true">|</span></h1>
+      <p class="hero__lead hero-fade" data-c="hero.headline"></p>
+      <div class="hero__ctas hero-fade">
+        <a class="btn btn--fill" data-c-link="hero.ctaPrimary" data-preset="commission" data-cursor-hover data-cursor-on="accent"></a>
+        <a class="btn btn--line" data-c-link="hero.ctaSecondary" data-cursor-hover></a>
+      </div>
+      <p class="hero__years hero-fade" data-c="hero.experience"></p>
+    </div>
+    <div class="hero__cue hero-fade" aria-hidden="true"><span data-c="ui.scrollCue"></span><span class="hero__cue-track"><span class="hero__cue-line"></span></span></div>
+  </section>
+
+  <div class="reel">
+    <div class="reel__frame"></div>
+  </div>
+
+  <div class="band" role="region" data-c-aria="marquee.ariaLabel" data-cursor-on="accent"><div class="band__track"></div></div>
+
+  <section class="intro" id="intro" aria-labelledby="intro-title">
+    <div class="intro__wrap">
+      <div class="intro__side" data-scrub="side">
+        <h2 class="h2" id="intro-title" data-c="intro.heading"></h2>
+        <div class="intro__tabs" role="tablist" data-c-aria="intro.tabsAriaLabel"></div>
+      </div>
+      <div class="intro__card-wrap" data-scrub="card">
+        <div class="notepad" id="intro-panel" role="tabpanel" aria-live="polite">
+          <p class="notepad__text"></p>
+          <p class="notepad__light" aria-hidden="true"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ways sec" id="ways" aria-labelledby="ways-title">
+    <div class="wrap">
+      <div class="sec__head"><h2 class="h2" id="ways-title" data-reveal data-c="ways.heading"></h2><span class="sec__count" data-reveal data-count="ways.items" aria-hidden="true"></span></div>
+      <ol class="biglist" data-list="ways"></ol>
+      <p class="ways__boundary" data-reveal data-c="ways.boundary"></p>
+    </div>
+  </section>
+
+  <section class="work" id="work" aria-labelledby="work-title">
+    <div class="work__wrap">
+      <p class="eyebrow" data-reveal><span class="dot-loop" aria-hidden="true"></span><span data-c="work.eyebrow"></span></p>
+      <h2 class="h2" id="work-title" data-reveal data-c="work.heading"></h2>
+      <p class="sub" data-reveal data-c="work.intro"></p>
+      <div class="carousel" role="region" aria-roledescription="carousel" data-c-aria="work.heading"></div>
+      <ol class="stack"></ol>
+      <div class="more">
+        <h3 class="more__h" data-reveal data-c="work.moreHeading"></h3>
+        <ol class="more__list"></ol>
+      </div>
+    </div>
+  </section>
+
+  <section class="build" id="build" aria-labelledby="build-title">
+    <div class="build__pin">
+      <div class="build__track">
+        <div class="build__intro">
+          <h2 class="h2" id="build-title" data-c="build.heading"></h2>
+          <p class="sub build__note" data-c="build.assemblyNote"></p>
+          <span class="build__hint" aria-hidden="true" data-c="ui.scrollCue"></span>
+        </div>
+        <ol class="build__items"></ol>
+      </div>
+    </div>
+  </section>
+
+  <section class="ai sec" id="ai" aria-labelledby="ai-title">
+    <div class="wrap">
+      <p class="eyebrow" data-reveal><span class="dot-loop" aria-hidden="true"></span><span data-c="ai.eyebrow"></span></p>
+      <h2 class="h2 ai__h" id="ai-title" data-reveal data-c="ai.heading"></h2>
+      <p class="sub" data-reveal data-c="ai.mainBranch"></p>
+      <div class="ai__free" data-reveal>
+        <p class="ai__free-a" data-c="ai.freeVsOurs.free"></p>
+        <p class="ai__free-b" data-c="ai.freeVsOurs.ours"></p>
+      </div>
+      <ol class="outcomes" data-list="outcomes"></ol>
+      <div class="ai__grid">
+        <div class="ai__keep" data-reveal>
+          <p class="ai__proof" data-c="ai.proof"></p>
+          <p class="ai__teach" data-c="ai.teachOrSetup"></p>
+          <p class="ai__keep-lead" data-c="ai.deliverablesLead"></p>
+          <ul class="ai__deliv" data-list="deliverables"></ul>
+          <p class="ai__tools" data-c="ai.ownTools"></p>
+        </div>
+        <aside class="notepad notepad--auto ai__limits" data-reveal aria-labelledby="limits-title">
+          <h3 class="h3" id="limits-title" data-c="ai.limits.heading"></h3>
+          <p data-c="ai.limits.text"></p>
+          <p class="ai__cite"><a data-c="ai.limits.citeLabel" data-href="ai.limits.citeHref" target="_blank" rel="noopener" data-cursor-hover></a></p>
+          <p class="ai__done" data-c="ai.limits.doneRule"></p>
+        </aside>
+      </div>
+      <figure class="student" data-reveal>
+        <figcaption class="eyebrow eyebrow--plain" data-c="ai.student.label"></figcaption>
+        <blockquote class="student__q" data-c="ai.student.anonymous"></blockquote>
+      </figure>
+      <a class="btn btn--fill ai__cta" data-reveal data-c-link="ai.cta" data-preset="ai-training" data-cursor-hover data-cursor-on="accent"></a>
+    </div>
+  </section>
+
+  <section class="process sec" id="process" aria-labelledby="process-title">
+    <div class="wrap">
+      <div class="sec__head"><h2 class="h2" id="process-title" data-reveal data-c="process.heading"></h2><span class="sec__count" data-reveal data-count="process.steps" aria-hidden="true"></span></div>
+      <ol class="steps" data-list="steps"></ol>
+      <div class="process__grid">
+        <div class="notepad notepad--auto" data-reveal>
+          <h3 class="h3" data-c="process.aiUse.heading"></h3>
+          <p data-c="process.aiUse.text"></p>
+        </div>
+        <p class="process__terms" data-reveal data-c="process.terms"></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="first sec" id="first" aria-labelledby="first-title">
+    <div class="wrap">
+      <h2 class="h2" id="first-title" data-reveal data-c="firstTask.heading"></h2>
+      <p class="sub" data-reveal data-c="firstTask.text"></p>
+      <ol class="first__opts" data-list="firstTask"></ol>
+      <a class="btn btn--line" href="#contact" data-reveal data-c="firstTask.cta" data-preset="first" data-cursor-hover></a>
+    </div>
+  </section>
+
+  <section class="faq sec" id="faq" aria-labelledby="faq-title">
+    <div class="wrap">
+      <div class="sec__head"><h2 class="h2" id="faq-title" data-reveal data-c="faq.heading"></h2><span class="sec__count" data-reveal data-count="faq.items" aria-hidden="true"></span></div>
+      <div class="faq__list" data-list="faq"></div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact" aria-labelledby="contact-title">
+    <div class="contact__wrap">
+      <h2 class="contact__big" id="contact-title" data-reveal data-c="contact.heading"></h2>
+      <p class="sub contact__lead" data-reveal data-c="contact.lead"></p>
+      <form class="builder" data-reveal novalidate onsubmit="return false" aria-labelledby="contact-title">
+        <fieldset class="builder__f" data-field="type"><legend data-c="contact.builder.fields.0.label"></legend><div class="chips"></div></fieldset>
+        <fieldset class="builder__f" data-field="job"><legend data-c="contact.builder.fields.1.label"></legend><div class="chips"></div></fieldset>
+        <div class="builder__row">
+          <label class="builder__in"><span data-c="contact.builder.fields.2.label"></span><input type="text" name="deadline" autocomplete="off" maxlength="80" spellcheck="false"></label>
+          <label class="builder__in"><span data-c="contact.builder.fields.3.label"></span><input type="url" name="reference" inputmode="url" autocomplete="off" maxlength="300" spellcheck="false"></label>
+        </div>
+        <output class="builder__msg" data-audit="template" aria-live="polite"></output>
+        <div class="builder__acts">
+          <button class="btn btn--fill" type="button" data-copy-msg data-cursor-hover data-cursor-on="accent"></button>
+          <p class="contact__handle"><span class="contact__label" data-c="contact.discord.label"></span><span class="contact__id" data-c="contact.discord.handle" translate="no"></span></p>
+          <button class="btn btn--line" type="button" data-copy-discord data-cursor-hover aria-live="polite"></button>
+        </div>
+      </form>
+      <p class="contact__safety" data-c="contact.safety"></p>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="foot__top">
+    <nav class="foot__nav" data-c-aria="nav.ariaLabel"></nav>
+    <p class="foot__dc" data-c="footer.discordLine" translate="no"></p>
+    <a class="foot__top-link" href="#top" data-cursor-hover><span data-c="footer.backToTop"></span> <span aria-hidden="true">↑</span></a>
+  </div>
+  <div class="foot__bottom">
+    <p data-c="footer.copyright"></p>
+    <p data-c="footer.robloxNotice"></p>
+  </div>
+</footer>
+
+<div class="cursor" aria-hidden="true"><span class="cursor__label"></span></div>
+
+<script src="content.js"></script>
+<script src="media.js"></script>
+<script src="assets/vendor/lenis-1.1.13.min.js" defer></script>
+<script src="app.js" defer></script>
+</body>
+</html>

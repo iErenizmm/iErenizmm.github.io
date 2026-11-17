@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><!-- ED monogram, palette A (#09090B ground, #F3F2EE strokes) -->
+<rect width="64" height="64" rx="32" fill="#09090B"/>
+<g fill="none" stroke="#F3F2EE" stroke-width="4" stroke-linecap="square" stroke-linejoin="miter">
+<path d="M28 20H16v24h12M16 32h10"/>
+<path d="M35 20v24h5c6.5 0 10-4.6 10-12s-3.5-12-10-12z"/>
+</g></svg>
